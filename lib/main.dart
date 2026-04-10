@@ -5,6 +5,8 @@ import 'package:flutter_lanjutan/MURAJAAH/Murajaah3.dart';
 import 'package:flutter_lanjutan/Mini%20Project/mp1.dart';
 import 'package:flutter_lanjutan/Mini%20Project/mp2.dart';
 import 'package:flutter_lanjutan/Mini%20Project/mp3.dart';
+import 'package:flutter_lanjutan/Mini%20Project/mp4.dart';
+import 'package:flutter_lanjutan/Mini%20Project/mp5.dart';
 
 void main() {
   runApp(const MyApp());
@@ -18,7 +20,7 @@ class MyApp extends StatelessWidget {
     return  MaterialApp(
       debugShowCheckedModeBanner: false,
       
-      home:  SplashScreen(),
+      home:  Mp5(),
     );
   }
 }
@@ -40,7 +42,7 @@ class _SplashScreenState extends State<SplashScreen> {
     Future.delayed(const Duration(seconds: 3), () {
       Navigator.pushReplacement(
         context,
-        MaterialPageRoute(builder: (context) => const Mp3()),
+        MaterialPageRoute(builder: (context) => const Mp4()),
       );
     });
   }
