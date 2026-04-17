@@ -200,9 +200,28 @@ class _Nmp6State extends State<Nmp6> {
                 }).toList(),
               )
             ),
+          Padding(
+                padding: EdgeInsets.symmetric(horizontal: 16, vertical: 10),
+                child: Row(
+                  children: [
+                    Expanded(child: Divider(thickness: 1)),
+                    Padding(
+                      padding: EdgeInsets.symmetric(horizontal: 10),
+                      child: Text(
+                        "Rekomendasi",
+                        style: TextStyle(
+                          fontWeight: FontWeight.bold,
+                        ),
+                      ),
+                    ),
+                    Expanded(child: Divider(thickness: 1)),
+                  ],
+                ),
+              ),
+              SizedBox(height: 20,),
             // LISTVIEW
             Container(
-                height: 500,
+                height: 1400,
                 padding: EdgeInsets.symmetric(horizontal: 20),
                 child: GridView.builder(
                   itemCount: 7,
@@ -328,6 +347,24 @@ class _Nmp6State extends State<Nmp6> {
                   },
                 ),
               ),
+              Padding(
+            padding: EdgeInsets.symmetric(horizontal: 16, vertical: 10),
+            child: Row(
+              children: [
+                Expanded(child: Divider(thickness: 1)),
+                Padding(
+                  padding: EdgeInsets.symmetric(horizontal: 10),
+                  child: Text(
+                    "PROMO",
+                    style: TextStyle(
+                      fontWeight: FontWeight.bold,
+                    ),
+                  ),
+                ),
+                Expanded(child: Divider(thickness: 1)),
+              ],
+            ),
+          ),
             SizedBox(height: 20),
              Container(
               height: 500,
@@ -403,7 +440,24 @@ class _Nmp6State extends State<Nmp6> {
               ),
             ),
             
-        
+        Padding(
+  padding: EdgeInsets.symmetric(horizontal: 16, vertical: 10),
+  child: Row(
+    children: [
+      Expanded(child: Divider(thickness: 1)),
+      Padding(
+        padding: EdgeInsets.symmetric(horizontal: 10),
+        child: Text(
+          "TOP SALE",
+          style: TextStyle(
+            fontWeight: FontWeight.bold,
+          ),
+        ),
+      ),
+      Expanded(child: Divider(thickness: 1)),
+    ],
+  ),
+),
             Container(
               margin: EdgeInsets.all(10),
              height: 290,
