@@ -7,6 +7,8 @@ import 'package:flutter_lanjutan/Mini%20Project/mp2.dart';
 import 'package:flutter_lanjutan/Mini%20Project/mp3.dart';
 import 'package:flutter_lanjutan/Mini%20Project/mp4.dart';
 import 'package:flutter_lanjutan/Mini%20Project/mp5.dart';
+import 'package:flutter_lanjutan/Mini%20Project/nmp6.dart';
+import 'package:flutter_lanjutan/New%20Materi/api.dart';
 
 void main() {
   runApp(const MyApp());
@@ -20,7 +22,7 @@ class MyApp extends StatelessWidget {
     return  MaterialApp(
       debugShowCheckedModeBanner: false,
       
-      home:  Mp5(),
+      home:  Nmp6(),
     );
   }
 }
