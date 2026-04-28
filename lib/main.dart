@@ -8,6 +8,7 @@ import 'package:flutter_lanjutan/Mini%20Project/mp3.dart';
 import 'package:flutter_lanjutan/Mini%20Project/mp4.dart';
 import 'package:flutter_lanjutan/Mini%20Project/mp5.dart';
 import 'package:flutter_lanjutan/Mini%20Project/nmp6.dart';
+import 'package:flutter_lanjutan/Mini%20Project/nmp7.dart';
 import 'package:flutter_lanjutan/New%20Materi/api.dart';
 
 void main() {
@@ -22,7 +23,7 @@ class MyApp extends StatelessWidget {
     return  MaterialApp(
       debugShowCheckedModeBanner: false,
       
-      home:  Nmp6(),
+      home:  Nmp7(),
     );
   }
 }
